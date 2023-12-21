@@ -4,6 +4,7 @@
 //Fie n nr dat, n>0. Functia adunare: 1+2+3+..+n-1+n
 // Rezolvare : formula de calcul a sumei unui sir este : S = n(n+1)/2
 //ddddfddggg
+
 /*$numar = 10;
 function suma($numar)
 {
@@ -73,5 +74,3 @@ print("multiplicacion: " . multiplicacion(10));
 
 
 
-
-?>
