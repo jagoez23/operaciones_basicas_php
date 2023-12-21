@@ -4,11 +4,23 @@
 //Fie n nr dat, n>0. Functia adunare: 1+2+3+..+n-1+n
 // Rezolvare : formula de calcul a sumei unui sir este : S = n(n+1)/2
 //ddddfddggg
-$numar = 10;
+/*$numar = 10;
 function suma($numar)
 {
     $suma = $numar * ($numar + 1) / 2;
     return $suma;
 }
 $suma_mea = suma($numar);
-print $suma_mea;
+print $suma_mea;*/
+
+function suma($numar)
+{
+    $s = 0;
+    for ($j = 0; $j <= $numar; $j++) {
+        $s += $j;
+        print $s;
+        echo "\n";
+    }
+}
+suma(3);
+?>
