@@ -24,7 +24,7 @@ print $suma_mea;*/
 }
 suma(3);*/
 
-function suma($a, $b = 0)
+/*function suma($a, $b = 0)
 {
     $c = $a + $b;
     return $c;
@@ -35,7 +35,43 @@ function resta($a, $b)
     return $c;
 }
 echo resta(5, 10) . '<br>';
-echo suma(10, 9);
+echo suma(10, 9);*/
+
+/*$var = 5;//varaible global
+
+function suma ()
+{
+	$var =12;//variable local
+	if ($var == 12) {
+		print($var);
+	}
+
+
+}
+print(suma());*/
+
+//Ejemplo 1
+echo "<h1>";
+function suma($x, $y)
+{
+    $z = $x + $y;
+    return $z;
+}
+$resultado = suma(5,12);
+echo "<br>";
+print($resultado);
+echo "</h1>";
+
+//Ejemplo 2
+
+function multiplicacion ($multiplicacion)
+{
+    return $multiplicacion + $multiplicacion;// Creamos la funcion en este caso multiplicacion.
+}
+
+print("multiplicacion: " . multiplicacion(10));
+
+
 
 
 ?>
